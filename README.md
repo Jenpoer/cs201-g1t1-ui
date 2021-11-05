@@ -44,8 +44,8 @@ Read the README.md file of cs201-g1t1-main repository for documentation
 
 5. Install the necessary packages using `yarn install`
 <br/>
-    - If you do not have yarn yet, install it using `npm install -g yarn`, this requires npm to be installed
-    - If you do not have npm, please install it along with Node.js
+    If you do not have yarn yet, install it using `npm install -g yarn`, this requires npm to be installed<br/>
+    If you do not have npm, please install it along with Node.js
 
 6. Run the app using `yarn start`
 
