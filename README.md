@@ -41,12 +41,18 @@ DB name: cs201g1t1
 Read the README.md file of cs201-g1t1-main repository for documentation
 
 **Front-end setup** 
+
 5. Install the necessary packages using `yarn install`
+<br/>
     - If you do not have yarn yet, install it using `npm install -g yarn`, this requires npm to be installed
     - If you do not have npm, please install it along with Node.js
+
 6. Run the app using `yarn start`
+
 7. Make sure the backend server (from the cs201-g1t1-main repository) is also running
+
 8. Click the "Draw" button on the top left corner to start drawing
+
 9. Click anywhere on the map to define the **top left corner**, then click anywhere on the map to define the **bottom right corner**
 
 ## Current Limitations
