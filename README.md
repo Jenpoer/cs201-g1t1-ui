@@ -21,6 +21,8 @@ Finding the most commonly occuring business category in an area.
 ## User Guide 
 ### Steps
 
+**Back-end Setup**
+See cs201-g1t1-main repository
 1. Install Maven extension and Spring Boot extensions in IDE
 2. Create a new database connection on MySQL Workbench and enter all the required connection parameters of the AWS MySQL database server. 
 
@@ -32,24 +34,17 @@ DB name: cs201g1t1
 4. Run the application using the command - "mvn spring-boot:run" in your terminal
 
 #### HTTP methods 
-Get the list of all the businesses residing in a particular area identified by its longiture and latitude using a kd-tree and range tree respectively:
-
-GET http://localhost:8080/kd-tree/range-query
-
-GET http://localhost:8080/range-tree/range-query
+Read the README.md file of cs201-g1t1-main repository for documentation
 
 
-Find the most popular category amonst these businesses using a list and hashmap respectively:
-
-GET http://localhost:8080/list/categories
-
-GET http://localhost:8080/unique
-
-
-5. Run the app using `yarn start` 
-6. Make sure the backend server (from the cs201-g1t1-yelpdata repository) is also running
-7. Click the "Draw" button on the top left corner to start drawing
-8. Click anywhere on the map to define the **top left corner**, then click anywhere on the map to define the **bottom right corner**
+**Front-end setup**
+5. Install the necessary packages using `yarn install`
+- If you do not have yarn yet, install it using `npm install -g yarn`, this requires npm to be installed
+- If you do not have npm, please install it along with Node.js
+6. Run the app using `yarn start` 
+7. Make sure the backend server (from the cs201-g1t1-main repository) is also running
+8. Click the "Draw" button on the top left corner to start drawing
+9. Click anywhere on the map to define the **top left corner**, then click anywhere on the map to define the **bottom right corner**
 
 ## Current Limitations
 - Code might not follow the conventional best practice
